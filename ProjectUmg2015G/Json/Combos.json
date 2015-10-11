@@ -1,0 +1,6 @@
+{
+	"semestres":["Semestre","1ro","2do","3ro","4to","5to","6to","7mo","8vo","9no","10mo"],
+	"carrera":["Carrera","Ingenieria En Sistemas","Administración de Empresas","Ciencias Jurídicas y Sociales","Contaduría Pública y Auditoría","Educación con Especialización en Administración Educativa","Trabajo Social","Psicología Clínica","Psicología General ","Arquitectura","PEM en Pedagogía con Especialización","PEM en Pedagogía y Administración Educativa","Técnico Universitario en Construcción"],
+	"plan":["Plan","Diario","Fin De Semana"],
+	"sexo":["Sexo","Hombre","Mujer"]
+}
