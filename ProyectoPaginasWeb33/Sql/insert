@@ -1,0 +1,9 @@
+INSERT INTO regusuarios(usuario,password,email,nombre,apellido,fechanacimiento,sexo,telefono,direccion) VALUES ('felix23m','1234567','pfmata01@gmail.com','pablo','mendez','23/2/1994','masculino','2323233233','reu')
+
+INSERT INTO libros(nombrelibro,autor,editorial,edicion,direccionimg,direccionpdf) VALUES ('El Alquimista','Paulo Coelho','fff','1ra','Alquimista')
+
+INSERT INTO libros(nombrelibro,autor,editorial,edicion,direccionimg,direccionpdf) VALUES ('El Alquimista','Paulo Coelho','ffddf','2da','ElAlquimista2')
+
+INSERT INTO reservaciones(usuario,nombrelibro,auto,edicion) VALUES ('felix23m','El Alquimista','Paulo Coelho','1ra')
+
+INSERT INTO reservaciones(usuario,nombrelibro,auto,edicion) VALUES ('felix23m','El Alquimista','Paulo Coelho','1da')

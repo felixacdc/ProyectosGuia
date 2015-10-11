@@ -1,0 +1,223 @@
+   /*Estilo de AdBusRes.php*/
+
+    #movdiv
+    {
+        margin-left: -95px;
+    }
+    #bb
+    {   
+        width: 230px;
+        height: 29px;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+        margin-right: 0px;
+        background-color: #FFFFFF;
+        border-width:0;
+        padding-left: 8px;
+        display: inline-block;
+    }
+
+    #bb:focus{
+        outline:0px;
+    }
+
+    #but{
+        width: 40px;
+        height: 31px;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        margin-left: -4px;
+        background-color: #FFFFFF;
+        border-width:0;
+        padding: 0px;
+        display: inline-block;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    #imglup{
+        width: 25px;
+        height: 25px;
+        margin: 0px;
+    }
+
+    #but:focus{
+        outline:0px;
+
+    }
+
+
+    #tablareser{
+    margin-top: 30px;
+    margin-left: 300px;
+    width: 500px;
+    text-align: center;
+
+    }
+
+    
+
+    #lol th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+    }
+    #lol th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+    }
+
+    #lol, table td, table tr {
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-spacing: 0px;
+    }
+    #lol thead{
+        background-color: #006699;
+        font-size: 18px;
+        color: white;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+     
+     
+    #lol.header tbody tr:not(:first-child):hover, #lol:not(.header) tbody tr:hover {
+        background-color: rgba(20, 86, 213, 0.3);
+    }
+
+    #lol tbody tr{
+        border-top: 1px solid white;
+    }
+    #restitulo{
+        color: white;
+         font-family: Adobe Fangsong Std R;
+         font-size: 35px;
+         text-shadow: 0 .1em 1em lightblue;
+    }
+
+    .btnest{
+        border-radius: 5px;
+        color:white;
+        border-width:0;
+        font-weight:bolder; 
+        padding-right: 5px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+        padding-left: 5px;
+        cursor: pointer;
+    }
+
+    .btnest:focus{
+        outline:0px;
+    }
+
+    .btnest:hover{
+        text-shadow: 0 .1em 1em black;
+    }
+
+    .elim{
+        border-radius: 5px;
+        color:white;
+        background-color: rgba(127, 123, 121, 0.9);
+        border-width:0;
+        font-weight:bolder; 
+        padding-right: 5px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+        padding-left: 5px;
+        cursor: pointer;
+    }
+
+    .elim:focus{
+        outline:0px;
+    }
+
+    .elim:hover{
+        text-shadow: 0 .1em 1em black;
+    }
+
+    .imgpant{
+        width: 60px;
+        height: 60px;
+        margin: 0px;
+    }
+    .btntb{
+        margin: 0px;
+        margin-top: -13px; 
+        padding: 0px;
+    }
+    .brnpant {
+    border-radius: 8px;
+    box-shadow: inset 0 -1px 3px rgba(255,255,255,0.5), 0 2px 2px rgba(0,0,0,0.2);
+    border: 1px solid;
+    padding: 3px 5px;
+    color: #fff;
+    font-family: "Myriad Pro", Arial, Tahoma, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-shadow: -1px -1px rgba(0,0,0,0.1), 0 0 15px rgba(255,255,255,0.75);
+    white-space: nowrap;
+    background: #777;
+    border-color: #777;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: none;   
+    position: relative;
+    margin-right: 25px;
+    width: 170px;
+    height: 50px;
+}
+
+    .brnpant:focus{
+        outline:0px;
+    }
+
+    .brnpant:hover{
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .brnpant:hover,
+    .brnpant:focus {
+    bottom: 1px;
+    box-shadow: inset 0 -1px 3px rgba(255,255,255,0.5), 0 3px 2px rgba(0,0,0,0.2);  
+    background: #999;
+    border-color: #999; /* Default color */
+    }
+
+    .brnpant:active {
+        top: 1px;
+        box-shadow: inset 0 -1px 3px rgba(255,255,255,0.5), 0 1px 2px rgba(0,0,0,0.2);
+    }
+    .antsig{
+        margin: 0px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    #despli{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    #lol{
+    text-align: center;
+    width: 800px;
+    border-radius: 5px;
+    cursor: default;
+    min-width:400px;
+    font-family: Helvetica,Arial;
+    background-color: #E1EEF4;
+    color: #00496B;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 .1em 1em lightblue;
+    margin-top: 35px;
+    margin-left: 170px;
+    }
+    .avatarpr{
+        width: 50px;
+        height: 50px;
+        margin: 0px;
+        border-radius: 3px;
+    }

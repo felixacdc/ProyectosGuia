@@ -1,0 +1,23 @@
+body{
+	background:url(../Img/diseno8.jpg)no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+#hipregistro
+{text-decoration: none;}
+
+
+
+
+#divbotones{
+	margin: 10px 7% 20px auto;
+	text-align: center;
+	float: right;
+	width: auto;
+
+}

@@ -1,0 +1,136 @@
+body{
+	background: url(../../Css/Logo/bg-dark.png);
+}
+#Menu{
+	display: none;
+	padding-top: 8px;
+	width:351px;
+	height:230px;
+	background-color: transparent;
+	border-radius:8px;
+	box-shadow: 0px 0px 30px  white;
+	border:1px solid white;
+	margin: 180px auto;
+
+}
+
+#En
+{
+	margin-left: 115px;
+	margin-top: 25px;
+	width: 120px;
+	height: 30px;
+	box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+	border-color: rgba(0, 44, 116, 0.7);
+	background: (top,  #f9f9f9, #f0f0f0);
+	color: #555;
+	text-shadow: 0 1px 0 #fff;
+	border-radius: 3px;
+	font-size: 18px;
+	border: 1px solid #dedede;
+	font-family: Adobe Fangsong Std R;
+	cursor:  pointer;
+}
+
+#En:hover{
+ background: #f4f4f4;
+    border-color: #c7c7c7 #c3c3c3 #bebebe;
+     box-shadow: 0px 0px 10px  white, inset 0 1px 0 #f3f3f3;
+    text-shadow: 0 1px 0 #fdfdfd;
+    background: -moz-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -webkit-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -o-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -ms-linear-gradient(top,  #efefef, #f8f8f8);
+    background: linear-gradient(top,  #efefef, #f8f8f8); 
+}
+
+
+
+#datos
+{
+width:220px;
+height:27px;
+text-align: center;
+font-family: Adobe Fangsong Std R;
+border: 1px solid #DBE1EB;
+font-size: 16px;
+margin-left: 70px;
+margin-top: 30px;
+border-radius: 4px;
+background: #FFFFFF;
+background: linear-gradient(left, #FFFFFF, #F7F9FA);
+color: #2E3133;
+}
+
+#datos:hover
+ {
+ border-color: #FBFFAD;
+ }
+
+ #logi
+{text-align:center;
+font-weight:normal;
+font-size:30px;
+font-family: Adobe Fangsong Std R;
+margin-bottom: 20px;
+margin-top: 20px;
+cursor:  default;
+color: white; 
+text-shadow: black 0.3em 0.3em 0.5em
+}
+
+#logi:hover{
+	text-shadow: 0 .1em 1em lightblue;
+}
+
+#divici{
+	width: 335px;
+	height: 1.4px;
+	margin-left: 5px;
+	background: white;
+}
+
+.errores{
+	background-color: rgba(117, 118, 118, 0.8);
+	color: white;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	display: none;
+	font-family: Adobe Fangsong Std R;
+	margin-top: -30px;
+	margin-left: 315px;
+	width: 170px;
+	height: 35px;
+	position: absolute;
+}
+
+.Erro
+{	margin-left: 8px;
+	margin-top: 3px;
+	float: left;
+	width: 25px;
+	height: 25px;
+	background: transparent;
+}
+
+.Mensa
+{	font-size: 15px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.tris
+{
+	border-color:  transparent rgba(117, 118, 118, 0.8) transparent transparent;
+	border-style: solid;
+	border-width: 12px;
+	width: 0;
+	height: 0;
+	display: none;
+	margin-top: -27px;
+	margin-left: 292px;
+	position: absolute;
+}

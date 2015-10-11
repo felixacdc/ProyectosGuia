@@ -1,0 +1,63 @@
+http://msdn.microsoft.com/es-es/library/ms186724.aspx#GetSystemDateandTimeValues
+
+obtener ora del sistema:
+http://www.tsql.info/functions/sysdatetimeoffset.php
+
+borrar datos desde php despues de cierto tiempo:
+http://foro.elhacker.net/desarrollo_web/borrar_cada_cierto_tiempo_en_php-t79867.0.html
+
+
+$consulta="SELECT * FROM  reservaciones WHERE usuario='$usu'";
+	$ejecutar_consulta=$conexion->query($consulta);
+
+	$num=$ejecutar_consulta->num_rows;
+
+	$desplie='<table id="lol">
+					<thead> 
+						<tr>
+							<th>Usuario</th>
+						 	<th>Libro</th> 
+						 	<th>Autor</th>
+						 	<th>Edicion</th>
+						 	<th>Editorial</th>
+						 	<th>Categoria</th>
+						 	<th>Estado</th>
+						</tr>
+					</thead>
+					<tbody>
+	';
+
+	if($num!=0){
+
+		
+		while($registro=$ejecutar_consulta->fetch_assoc())
+		{	
+			
+			$desplie .= '
+				<tr>
+					<td>'.$registro['usuario'].'</td>
+					<td>'.$registro['nombrelibro'].'</td>
+					<td>'.$registro['autor'].'</td>
+					<td>'.$registro['edicion'].'</td>
+					<td>'.$registro['editorial'].'</td>
+					<td>'.$registro['categoria'].'</td>
+				<tr>
+				</tbody>
+				</table>
+				';
+			}
+			
+		}
+	
+
+	function BusPass(texto)
+							{	
+								$.ajax({
+									type: 'POST',
+									url: 'Menus/librosbd2.php',
+									data: {
+										datos:texto
+									}
+								}).done(function(respuesta2){
+									$("#despli").html(respuesta2);
+								});

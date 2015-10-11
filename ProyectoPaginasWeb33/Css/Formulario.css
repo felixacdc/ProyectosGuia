@@ -1,0 +1,129 @@
+/* Css del formulario de login en el Index.php*/
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#cmd{
+	display:none;
+	margin-top: 80px;
+	padding-top: 8px;
+	width:301px;
+	height:280px;
+	background-color: rgba(0, 52, 142, 1) !important;
+	border-radius:8px;
+	box-shadow: 0px 0px 30px  white;
+	border:1px solid white;
+
+}
+
+#logi
+{text-align:center;
+font-weight:normal;
+font-size:50px;
+font-family: Adobe Fangsong Std R;
+margin-bottom: 10px;
+margin-top: 20px;
+cursor:  default;
+color: white; 
+text-shadow: black 0.3em 0.3em 0.5em
+}
+
+#Ing:hover{
+ background: #f4f4f4;
+    border-color: #c7c7c7 #c3c3c3 #bebebe;
+     box-shadow: 0px 0px 10px  white, inset 0 1px 0 #f3f3f3;
+    text-shadow: 0 1px 0 #fdfdfd;
+    background: -moz-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -webkit-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -o-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -ms-linear-gradient(top,  #efefef, #f8f8f8);
+    background: linear-gradient(top,  #efefef, #f8f8f8); 
+}
+
+.texto:focus
+{
+	border: 0px solid white;
+}
+
+
+#datos
+{
+width:220px;
+height:27px;
+text-align: center;
+font-family: Adobe Fangsong Std R;
+border: 1px solid #DBE1EB;
+font-size: 16px;
+margin-left: 40px;
+margin-top: 10px;
+border-radius: 4px;
+background: #FFFFFF;
+background: linear-gradient(left, #FFFFFF, #F7F9FA);
+color: #2E3133;
+}
+
+#datos:hover
+ {
+ border-color: #FBFFAD;
+ }
+
+
+#datos2
+{	
+width:220px;
+height:27px;
+text-align: center;
+font-family: Adobe Fangsong Std R;
+border: 1px solid #DBE1EB;
+font-size: 16px;
+border-radius: 4px;
+background: #FFFFFF;
+background: linear-gradient(left, #FFFFFF, #F7F9FA);
+color: #2E3133;
+margin-top: 15px;
+margin-left: 40px;
+}
+
+#datos2:hover
+ {
+ border-color: #FBFFAD;
+ }
+
+#Ing
+{
+	margin-left: 95px;
+	margin-top: 19px;
+	width: 120px;
+	height: 30px;
+	box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+	border-color: rgba(0, 44, 116, 0.7);
+	background: (top,  #f9f9f9, #f0f0f0);
+	color: #555;
+	text-shadow: 0 1px 0 #fff;
+	border-radius: 3px;
+	font-size: 18px;
+	border: 1px solid #dedede;
+	font-family: Adobe Fangsong Std R;
+	cursor:  pointer;
+}
+
+#close
+{	cursor:  pointer;
+	height: 30px;
+	width: 30px;
+	margin-top: 90px;
+	margin-left: 110px;
+}
+
+#close:hover
+{
+opacity: 0.5;
+}
+

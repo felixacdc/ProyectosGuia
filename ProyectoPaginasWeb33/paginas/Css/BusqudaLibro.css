@@ -1,0 +1,272 @@
+	/* Estilo de BusquedaLibro.php */
+	.imglibr{
+		height: 200px;
+		width: 150px;
+		margin-left: 0px;
+		display: inline-block;
+	}
+
+	 #imglup{
+        width: 25px;
+        height: 25px;
+        margin: 0px;
+    }
+    #movdiv
+    {
+        margin-left: -95px;
+    }
+
+	.brnpant {
+	border-radius: 8px;
+	box-shadow: inset 0 -1px 3px rgba(255,255,255,0.5), 0 2px 2px rgba(0,0,0,0.2);
+	border: 1px solid;
+	padding: 3px 5px;
+	color: #fff;
+	font-family: "Myriad Pro", Arial, Tahoma, sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-shadow: -1px -1px rgba(0,0,0,0.1), 0 0 15px rgba(255,255,255,0.75);
+	white-space: nowrap;
+	background: #777;
+	border-color: #777;
+	text-decoration: none;
+	font-style: normal;
+	text-transform: none;	
+	position: relative;
+	margin-right: 25px;
+	width: 170px;
+	height: 50px;
+}
+
+	.brnpant:focus{
+		outline:0px;
+	}
+
+	.brnpant:hover{
+		background-color: rgba(255, 255, 255, 0.3);
+	}
+
+	.imgpant{
+		width: 60px;
+		height: 60px;
+		margin: 0px;
+	}
+
+	.antsig{
+		margin: 0px;
+		color: white;
+		margin-bottom: 10px;
+	}
+
+	.brnpant:hover,
+	.brnpant:focus {
+	bottom: 1px;
+	box-shadow: inset 0 -1px 3px rgba(255,255,255,0.5), 0 3px 2px rgba(0,0,0,0.2);	
+	background: #999;
+	border-color: #999; /* Default color */
+	}
+
+	.brnpant:active {
+		top: 1px;
+		box-shadow: inset 0 -1px 3px rgba(255,255,255,0.5), 0 1px 2px rgba(0,0,0,0.2);
+	}
+
+	.btntb{
+		margin: 0px;
+		margin-top: -13px; 
+		padding: 0px;
+	}
+
+	.cuerpos{
+		display: inline-block;
+	}
+
+		#despli{
+	margin-top: 30px;
+	padding-left: 50px;
+	}
+
+
+	#bb
+	{	
+		width: 230px;
+		height: 29px;
+		border-top-left-radius: 6px;
+		border-bottom-left-radius: 6px;
+		margin-right: 0px;
+		background-color: #FFFFFF;
+		border-width:0;
+		padding-left: 8px;
+		display: inline-block;
+	}
+
+	#bb:focus{
+		outline:0px;
+	}
+
+	#but{
+		width: 40px;
+		height: 31px;
+		border-top-right-radius: 6px;
+		border-bottom-right-radius: 6px;
+		margin-left: -4px;
+		background-color: #FFFFFF;
+		border-width:0;
+		display: inline-block;
+		position: absolute;
+		cursor: pointer;
+	}
+
+	#but:focus{
+		outline:0px;
+
+	}
+	.cuerpos
+	{	text-align: left;
+		width: 553px;
+		height: 300px;
+	}
+
+
+
+	.imglibr{
+		margin-right: 20px;
+	}
+
+	.objetos{
+		color: white;
+	}
+
+	.opera{
+		cursor: pointer;
+		background-color: white;
+	}
+	.objetos{
+		font-family: Adobe Fangsong Std R;
+		font-size: 18px;
+	}
+
+	.liti{
+		font-size: 28px;
+		font-family: Adobe Fangsong Std R;
+		color: white;
+		text-shadow: 0 .1em 1em lightblue;
+	}
+
+	.bulib{
+		margin-left: 0px;
+		margin-top: 19px;
+		width: 120px;
+		height: 30px;
+		box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+		border-color: rgba(0, 44, 116, 0.7);
+		background: (top,  #f9f9f9, #f0f0f0);
+		color: #555;
+		text-shadow: 0 1px 0 #fff;
+		border-radius: 3px;
+		font-size: 18px;
+		border: 1px solid #dedede;
+		font-family: Adobe Fangsong Std R;
+		cursor:  pointer;
+		font-weight:bolder ;
+	}
+
+	.bulib:hover{
+ 	background: #f4f4f4;
+    border-color: #c7c7c7 #c3c3c3 #bebebe;
+     box-shadow: 0px 0px 10px  white, inset 0 1px 0 #f3f3f3;
+    text-shadow: 0 1px 0 #fdfdfd;
+    background: -moz-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -webkit-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -o-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -ms-linear-gradient(top,  #efefef, #f8f8f8);
+    background: linear-gradient(top,  #efefef, #f8f8f8); 
+	}
+
+	#despli{
+		padding: 0px;
+	}
+
+		 .portapdf{
+	 	/*position: fixed;*/
+	 	margin-top: 5%;
+	 	/*z-index:100;*/
+	 	margin-left: -30%;
+    	top: 0px;
+   		left: 0px;
+    	height:160%;
+    	width:150%;
+    	background-color: rgba(0, 0, 0, 0.8);display: none;
+	 }
+
+	 .pdflib{
+	 	margin-top: 0%;
+	 	margin-left: 0%;
+	 	width: 100%;
+	 	height: 100%;
+	 }
+
+	 .Titupdf{
+	 	margin-top: 0%;
+	 	width: 100%;
+	 	height: 6%;
+	 	background-color: rgba(119, 116, 116, 1);
+	 	margin-left: 0%;
+	 	float: left;
+	 	display: inline-block;
+	 	text-align: center;
+	 	border-top-right-radius: 5px;
+	 	border-top-left-radius: 5px; 
+	 }
+
+	 .cerpdf{
+	 	width: 3%;
+	 	height: 5%;
+	 	display: inline-block;
+	 	margin-right: 1%;
+	 	float: right;
+	 	margin-top: -3%;
+	}
+
+	.ttpdf{
+		margin-top: 0%;
+		color: black;
+		font-size: 150%;
+	}
+
+	.cerpdf:hover{
+		opacity: 0.7;
+	}
+
+	.vericre{
+		margin-top: -90px;
+		margin-left: 340px;
+		padding-top: 4px;
+		width: 200px;
+		height: 60px;
+		font-size: 20px;
+		text-align: center;
+		background-color: rgba(0, 124, 218, 0.5);
+		color: white;
+		position: absolute;
+		border-radius: 5px;
+		border-bottom-left-radius: 5px;
+		display: none;
+	}
+
+	.tris
+{
+	border-color:  transparent rgba(0, 124, 218, 0.5) transparent transparent;
+	border-style: solid;
+	border-width: 18px;
+	width: 0;
+	height: 0;
+	display: none;
+	margin-top: -70px;
+	margin-left: 305px;
+	position: absolute;
+}
+
+.errorbs{
+		color:white;
+	}
